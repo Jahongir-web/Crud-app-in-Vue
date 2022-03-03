@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="d-flex align-items-baseline justify-content-around">
-      <h2 class="text-center m-3">Our products</h2> 
+      <h2 class="text-center m-3">Prodacts List</h2> 
       <button @click="openModal" type="button" class="btn btn-success" :disabled="showModal">+ Add Prodact</button>
     </div>
     <div class="components-box">      
