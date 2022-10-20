@@ -4,7 +4,9 @@
       <h2 class="text-center m-3">Prodacts List</h2> 
       <button @click="openModal" type="button" class="btn btn-success" :disabled="showModal">+ Add Prodact</button>
     </div>
-    <div class="components-box">      
+    <div class="components-box"> 
+      
+          
       <div v-if="showModal" class="modal-prodact">
         <button @click="reset" type="button" class="btn btn-secondary close-btn">X</button>
         <h1 class="text-center mt-3 text-primary">Create Prodact</h1>
